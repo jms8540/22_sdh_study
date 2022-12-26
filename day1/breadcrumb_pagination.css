@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-display: none;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coutainer{
+    height: 400px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+}
+.my_a,
+.web_a,
+.p_tage{
+    font-size: 26pt;
+    font-weight: 550;
+    color: blue;
+}
+.p_tage{
+    color: black;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+li{
+    border: 1px solid gainsboro;
+    padding: 5px 15px 5px 15px;
+}
+li a{
+    font-size: 18pt;
+    font-weight: 600;
+    color: blue;
+}
+.num{
+
+}
+
+
+

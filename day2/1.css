@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    width: 600px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.parent::after{
+    content: '';
+    clear: left;
+    display: block;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+}
+.child::before{
+    content: "child";
+}
+.child::after{
+    content: "box";
+}
+
+.red{
+    background-color: lightcoral;
+}
+.yellew{
+    background-color: lightblue;
+}
+.blue{
+background-color: lightgreen;
+}

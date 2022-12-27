@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    width: 200px;
+    background-color: aquamarine;
+
+    position: relative;
+}
+.grandma{
+    width: 400px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+.child{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.red{
+    background-color: lightcoral;
+    position: absolute;
+}
+.yellew{
+    background-color: lightgoldenrodyellow;
+}
+.blue{
+    background-color: lightblue;
+}

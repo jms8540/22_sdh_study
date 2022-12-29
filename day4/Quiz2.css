@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    flex-direction: column;
+    display: flex;
+}
+.fianer{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    font-size: 14pt;
+    font-weight: 600;
+    padding: 10px 20px;
+}
